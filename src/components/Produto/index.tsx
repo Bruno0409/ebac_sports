@@ -1,10 +1,11 @@
-import { Produto as ProdutoType } from '../../App'
+import { Produto } from '../../types/Produto'
+
 import * as S from './styles'
 
 type Props = {
-  produto: ProdutoType
-  aoComprar: (produto: ProdutoType) => void
-  favoritar: (produto: ProdutoType) => void
+  produto: Produto
+  aoComprar: (produto: Produto) => void
+  favoritar: (produto: Produto) => void
   estaNosFavoritos: boolean
 }
 
