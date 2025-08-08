@@ -1,4 +1,3 @@
-// src/containers/Produtos.tsx
 import { useSelector, useDispatch } from 'react-redux'
 import { RootState, AppDispatch } from '../store'
 import { useGetProdutosQuery } from '../store/services/produtosApi'
@@ -6,7 +5,7 @@ import { addItem } from '../store/reducers/carrinho'
 import { addFavorite, removeFavorite } from '../store/reducers/favoritesSlice'
 
 import Produto from '../components/Produto'
-import { Produto as ProdutoType } from '../types/Produto' // ✅ Importa o tipo sem conflito
+import { Produto as ProdutoType } from '../types/Produto'
 
 import * as S from './styles'
 

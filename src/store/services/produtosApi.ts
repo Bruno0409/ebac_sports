@@ -1,4 +1,3 @@
-// src/store/services/produtosApi.ts
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 import { Produto } from '../../types/Produto'
 

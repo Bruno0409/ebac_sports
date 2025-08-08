@@ -1,4 +1,3 @@
-// src/store/reducers/cartSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { Produto } from '../../types/Produto'
 
